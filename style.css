@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    /* padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    background-color: white; */
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+}
+.logo span{
+    color: green;
+}
+.location{
+    min-width: 170px;
+}
+.location h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.location p{
+    font-size: 12px;
+}
+.search{
+    flex: 1;
+}
+.search input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    outline: none;
+    font-size: 14px;
+}
+.login button{
+    padding: 15px 20px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cart button{
+    padding: 15px 20px;
+
+}
